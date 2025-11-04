@@ -27,3 +27,5 @@ pub mod pymodule;
 #[doc(hidden)]
 pub mod trampoline;
 pub mod wrap;
+
+pub(crate) mod pymodule_state;
